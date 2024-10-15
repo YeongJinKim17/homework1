@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hw3</title>
+    <script defer src="hw_3.js"></script>
+    <link rel="stylesheet" href="/js/hw_3.css">
+</head>
+<body>
+    <div id ="outer">
+
+        <div id="logo-area" onclick="f01();"><img src ="/resources/img/kh-logo.png" width=100% height=100%></div>
+
+        <div id="title-area">
+            <div></div> 
+            <div id="title">김영진의 자기소개서</div>
+        
+        </div>
+
+        <div id="index-area">
+
+            <div> </div>
+            <div><a href="#detail_p"> 1. 자기소개서</a></div>
+            <div><a href="#cr"> 2. 경력사항</a></div>
+            <div><a href="#qu"> 3. 자격증</a></div>
+            <div><a href="#stack_p"> 4. 기술스택</a></div>
+            <div><a href="https://github.com/" target="_blank"> 5. GIT/블로그</a></div>
+            <div> 5. 프로젝트 산출물</div>
+            <!-- 추후 스크롤 -->
+            
+
+        </div>
+
+        <div id="detail-area">
+            
+            <div></div>
+            <div></div>
+            
+            <div>
+                <p id="detail_p"></p>
+                <div id="title_1">본인 자기소개 1번</div>
+                <div>
+                    국가는 법률이 정하는 바에 의하여 재외국민을 보호할 의무를 진다. 타인의 범죄행위로 인하여 생명·신체에 대한 피해를 받은 국민은 법률이 정하는 바에 의하여 국가로부터 구조를 받을 수 있다.
+
+                    대통령은 법률에서 구체적으로 범위를 정하여 위임받은 사항과 법률을 집행하기 위하여 필요한 사항에 관하여 대통령령을 발할 수 있다. 국토와 자원은 국가의 보호를 받으며, 국가는 그 균형있는 개발과 이용을 위하여 필요한 계획을 수립한다.<br>
+                </div> 
+            </div>
+        
+            <div>
+                <div>경력사항</div>
+                <p id="cr"></p>
+
+                <table id="table_cr">
+                    <tr id="table_ti">
+                        <td>기간</td>
+                        <td>업체/회사</td>
+                        <td>비고</td>
+                    </tr>
+                    <tr>
+                        <td>19-7~19~8</td>
+                        <td>여름 캠프</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>21-7~21-8</td>
+                        <td>☆☆☆사 현장실습</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>24-8~23-3</td>
+                        <td onclick="window.open('https://kh-academy.co.kr/main/main.kh')">kh-arcademy</td>
+                        <td></td>
+                    </tr>
+
+                </table>
+                
+            </div>
+
+            <div>
+                <p id="qu"></p>
+                <table id="table_cr">
+                    <tr id="table_ti">
+                        <td>기간</td>
+                        <td>자격증명</td>
+                        <td>비고</td>
+                    </tr>
+                    <tr>
+                        <td>24-n</td>
+                        <td onclick="window.open('/resources/img/정보처리기사.png')">정보처리기사</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>21-n</td>
+                        <td>운전면허 1종</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>19-n</td>
+                        <td id="f02">토익</td>
+                        <td>0점</td>
+                    </tr>
+
+                    
+                </table>
+            </div>
+
+            <div>기술 스택
+                <p id="stack_p"></p>
+                <div id="stack">
+                <div>
+                    <img width="48" height="48" src="https://img.icons8.com/color/48/python--v1.png" alt="python--v1"/>
+                    파이썬으로 데이터 계산하는걸 맛만 봐본 정도
+                    
+                </div>
+                    <img width="48" height="48" src="https://img.icons8.com/3d-fluency/94/java.png" alt="java"/>
+                    <div>CRUD 데이터 베이스 연동을 할 수 있을정도</div>
+
+                <div>
+                    <img width="48" height="48" src="https://img.icons8.com/color/48/oracle-logo.png" alt="oracle-logo"/>
+                        <div>쿼리문을 보고 해석 할 수 있을정도</div>
+                </div>
+            </div>
+            </div>
+        
+        </div>
+
+
+    </div>
+
+
+
+        
+</body>
+<bottom>
+    <div id="call">
+    전화번호 : 010-0000-0000 <br>
+    <p id = mail_clip>메일주소 : yj9826@gmail.com</p>
+
+    <button id="email_btn">메일복사</button>
+    </div>
+</bottom>
+</html>
